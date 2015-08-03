@@ -35,7 +35,7 @@ def check_git_directories(dirs, verbose=False):
                 print '\n'.join(s) + '\n'
 
 
-if __name__ == '__main__':
+def main():
     parser = argparse.ArgumentParser(
         description='Get git repositories with uncommitted changes')
     parser.add_argument('path', nargs='?', default=os.getcwd(),
@@ -47,3 +47,7 @@ if __name__ == '__main__':
 
     dirs = get_git_directories(args.path)
     check_git_directories(dirs, verbose=args.verbose)
+
+
+if __name__ == '__main__':
+    main()
