@@ -4,10 +4,10 @@ Get git repositories in a directory tree with uncommited changes
 ```
 usage: gunc [-h] [-v] [path]
 
-Find git repositories with uncommited changes
+Get git repositories with uncommitted changes
 
 positional arguments:
-  path        path to search below[working directory by default]
+  path        path to search below [working directory by default]
 
 optional arguments:
   -h, --help  show this help message and exit
