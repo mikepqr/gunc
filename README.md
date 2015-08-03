@@ -1,7 +1,9 @@
 # gunc
 Get git repositories in a directory tree with uncommited changes
 
-```
+```sh
+$ pip install .
+$ gunc -h
 usage: gunc [-h] [-v] [path]
 
 Get git repositories with uncommitted changes
